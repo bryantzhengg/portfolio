@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">See below!</div>
+    </nav>
+
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/memoji3.png" alt="Bryant Zheng profile picture">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hi, I'm</p>
+            <h1 class="title">Bryant Zheng</h1>
+            <p class="section__text__p2">Student - B. Eng.</p>
+            
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/bryant-zheng/'">
+                <img src="./assets/github.png" alt="My Github" class="icon" onclick="location.href='https://github.com/bryantzhengg'">
+            </div>
+
+        </div>
+    </section>
+
+   
+    <div class="portfolio-grid">
+      
+      <div class="portfolio-item">
+        <img src="assets/packed@mac mockup.png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext">
+            packed@mac
+          </h>
+          <h class="languages">
+            Python|React|Typescript|MySQL|SQL
+          </h>
+          <div class="desc">
+            Built an iOS app which tells the user how busy a certain study spot is on campus using a machine learning model to forecast.
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/bryantzhengg/packed-at-mac-first-model'">
+            Link
+          </button>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="assets/sightful.png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext">
+            sightful.
+          </h>
+          <h class="languages">
+            React|Typescript|Google Cloud
+          </h>
+          <div class="desc">
+            An accessibility Chrome extension that analyzes videos for triggering & negative content. Built in a team of 4 at HackThe6ix 2023.
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/prannyv/sightful'">
+            Link
+          </button>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="assets/kafka (1).png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext" style="font-size: 25px; text-align: center; line-height: 25px; top: 10px;">
+            End-to-End Github Activity Project
+          </h>
+          <h class="languages">
+            Python|SQL|Apache Kafka|Amazon EC2|Athena|Glue
+          </h>
+          <div class="desc" style="top: 110px;">
+            Created an end-to-end data engineering project based on real-time Github activity. Used EC2 to store data and Kafka to process data.
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/bryantzhengg/github-activity-kafka-project'">
+            Link
+          </button>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="assets/javagame.png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext">
+            rhythm game!
+          </h>
+          <h class="languages" style="left: 127px;">
+            Java
+          </h>
+          <div class="desc">
+            Created a rhythm game from scratch with personalized songs and visuals. Done for a culminating project.
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/bryantzhengg/rhythm-game'">
+            Link
+          </button>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="assets/pinetrest.png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext" style="font-size: 30px;">
+            pinetrest
+          </h>
+          <h class="languages">
+            Javascript|React|Google Cloud API|Firebase DB|Node.js
+          </h>
+          <div class="desc" style="top: 110px;">
+            Built a full-stack social media app at Hack the North 2023 with a team of 3. Won the "Best Use of Google Cloud".
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/dourian/htn-pinetrest'">
+            Link
+          </button>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="assets/iris flower.png" alt="Project 1">
+        <div class="hover-text">
+          <h class="projecttext" style="font-size: 30px; text-align: center; line-height: 35px; top: 20px;">
+            iris petals: KNN model
+          </h>
+          <h class="languages" style="top: 90px; left: 20%;">
+            Python (Pandas, SciPy)
+          </h>
+          <div class="desc" style="top: 110px;">
+            Classified iris flowers by length from a web database. Evaluated logistic regression, KNN Classifier, and GaussianNB. Was found that KNN was the most accurate.
+          </div>
+          <button class="linktoproj" onclick="location.href='https://github.com/bryantzhengg/iris-flower-program'">
+            Link
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
